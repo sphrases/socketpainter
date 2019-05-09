@@ -28,14 +28,12 @@ var otherGraphics;
 var paths = [];
 
 function preload() {
-    this.load.image('ground', 'assets/bg/BB2000-1.png');
 }
 
 function create() {
     graphics = this.add.graphics(); //
 
 
-    platforms = this.physics.add.staticGroup();
 
 }
 
