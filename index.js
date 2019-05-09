@@ -27,6 +27,6 @@ io.on('connection', function(socket) {
 
 });
 
-http.listen(6572, function(){
-  console.log('listening on *:6572');
+http.listen(process.env.PORT || 4000, function(){
+  console.log('Your node js server is running');
 });
