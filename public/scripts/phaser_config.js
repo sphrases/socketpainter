@@ -63,17 +63,7 @@ function update() {
     });
 
 
-    if (game.input.activePointer.leftButtonDown()) {
-        if (!mouseClickFlipFlop) {
-            mouseClickFlipFlop = true;
-        }
-    }
 
-    if (!game.input.activePointer.leftButtonDown()) {
-        if (mouseClickFlipFlop) {
-            mouseClickFlipFlop = false;
-        }
-    }
 
 
     if (pointer.justMoved) {
