@@ -1,3 +1,3 @@
 # socketpainter
 
-			heroku logs --tail -a socketpainter
+	heroku logs --tail -a socketpainter
